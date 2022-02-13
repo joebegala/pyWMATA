@@ -8,7 +8,7 @@ parser.add_argument("--end", help="To station")
 parser.add_argument("--arrivals", help="Arrival times at a given station")
 args = parser.parse_args()
 
-apikey = 'kfgpmgvfgacx98de9q3xazww' #Developer key
+apikey = e400f438252b4df098bbfc958a485c79 #Developer key
 api = pyWMATA.WMATA(apikey)
 
 if args.start and args.end:
